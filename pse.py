@@ -33,28 +33,16 @@ class GUI(CONFIG):
         info_window.minsize(self.get("Style","Info","width"),self.get("Style","Info","height"))
         Label(info_window,text=title,anchor=CENTER,bg = self.get("Style","Info","title","bg"),
             font = self.get("Style","Info","title","font")
-        ).pack(side=TOP,fill=X,ipady=5)
-        # Typ
-        Label(info_window,text=f"Typ = {element_infos['typ']}",
-            anchor = W, bg = self.get("Style","Info","bg"),
-            font = self.get("Style","Info","information","font")
-        ).pack(side=TOP,fill=X,padx=20)
-        # Ordnungszahl
-        Label(info_window,text=f"Ordnungszahl = {element_infos['ordnungszahl']}",
-            anchor = W, bg = self.get("Style","Info","bg"),
-            font = self.get("Style","Info","information","font")
-        ).pack(side=TOP,fill=X,padx=20)
-        # Masse u
-        Label(info_window,text=f"Masse (u) = {element_infos['masse_u']}",
-            anchor = W, bg = self.get("Style","Info","bg"),
-            font = self.get("Style","Info","information","font")
-        ).pack(side=TOP,fill=X,padx=20)
-        # Aggregatzustand
-        Label(info_window,text=f"Aggregatzustand = {element_infos['aggregatzustand']}",
-            anchor = W, bg = self.get("Style","Info","bg"),
-            font = self.get("Style","Info","information","font")
-        ).pack(side=TOP,fill=X,padx=20)
-        #
+        ).pack(side=TOP,fill=X,anchor=CENTER)
+        del element_infos['row']
+        del element_infos['column']
+        for x,element in enumerate(element_infos):
+            t_el:str = "".join([element[i] for i in range(1,len(element))])
+            Label(info_window,text=f"{element[0].upper()+t_el} = {element_infos[element]}",
+                anchor = W, bg = self.get("Style","Info","text","bg"),
+                fg = self.get("Style","Info","text","fg"),
+                font = self.get("Style","Info","information","font")
+            ).pack(side=TOP,fill=X,anchor=W,ipady=3,pady=0)
     
     def run(self) -> None:
         self.root = Tk()
