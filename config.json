@@ -1,0 +1,1281 @@
+{
+    "Content": {
+        "Main": {
+            "title": "PSE (Periodensystem) / German"
+        },
+
+        "Info": {
+            "title": "%s (%s)"
+        },
+
+        "PSE": {
+            "elements": {
+                "H": {
+                    "name": "Wasserstoff",
+                    "ordnungszahl": 1,
+                    "masse_u": 1.008,
+                    "typ": "Nichtmetall",
+                    "column": 0,
+                    "row": 0,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "He": {
+                    "name": "Helium",
+                    "ordnungszahl": 2,
+                    "masse_u": 4.002,
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 0,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Li": {
+                    "name": "Lithium",
+                    "ordnungszahl": 3,
+                    "masse_u": 6.941,
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 1,
+                    "aggregatzustand": "fest"
+                },
+
+                "Be": {
+                    "name": "Beryllium",
+                    "ordnungszahl": 4,
+                    "masse_u": 9.012,
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 1,
+                    "aggregatzustand": "fest"
+                },
+
+                "B": {
+                    "name": "Bor",
+                    "ordnungszahl": 5,
+                    "masse_u": 10.81,
+                    "typ": "Halbmetall",
+                    "column": 12,
+                    "row": 1,
+                    "aggregatzustand": "fest"
+                },
+
+                "C": {
+                    "name": "Kohlenstoff",
+                    "ordnungszahl": 6,
+                    "masse_u": 12.01,
+                    "typ": "Nichtmetall",
+                    "column": 13,
+                    "row": 1,
+                    "aggregatzustand": "fest"
+                },
+
+                "N": {
+                    "name": "Stickstoff",
+                    "ordnungszahl": 7,
+                    "masse_u": 14.01,
+                    "typ": "Nichtmetall",
+                    "column": 14,
+                    "row": 1,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "O": {
+                    "name": "Sauerstoff",
+                    "ordnungszahl": 8,
+                    "masse_u": 16.00,
+                    "typ": "Nichtmetall",
+                    "column": 15,
+                    "row": 1,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "F": {
+                    "name": "Fluor",
+                    "ordnungszahl": 9,
+                    "masse_u": 19.00,
+                    "typ": "Halogen",
+                    "column": 16,
+                    "row": 1,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Ne": {
+                    "name": "Neon",
+                    "ordnungszahl": 10,
+                    "masse_u": 20.18,
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 1,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Na": {
+                    "name": "Natrium",
+                    "ordnungszahl": 11,
+                    "masse_u": 22.99,
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "Mg": {
+                    "name": "Magnesium",
+                    "ordnungszahl": 12,
+                    "masse_u": 24.31,
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "Al": {
+                    "name": "Aluminium",
+                    "ordnungszahl": 13,
+                    "masse_u": 26.98,
+                    "typ": "Metall",
+                    "column": 12,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "Si": {
+                    "name": "Silicium",
+                    "ordnungszahl": 14,
+                    "masse_u": 28.09,
+                    "typ": "Halbmetall",
+                    "column": 13,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "P": {
+                    "name": "Phosphor",
+                    "ordnungszahl": 15,
+                    "masse_u": 30.97,
+                    "typ": "Nichtmetall",
+                    "column": 14,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "S": {
+                    "name": "Schwefel",
+                    "ordnungszahl": 16,
+                    "masse_u": 32.07,
+                    "typ": "Nichtmetall",
+                    "column": 15,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cl": {
+                    "name": "Chlor",
+                    "ordnungszahl": 17,
+                    "masse_u": 35.45,
+                    "typ": "Halogen",
+                    "column": 16,
+                    "row": 2,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ar": {
+                    "name": "Argon",
+                    "ordnungszahl": 18,
+                    "masse_u": 39.95,
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 2,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "K": {
+                    "name": "Kalium",
+                    "ordnungszahl": 19,
+                    "masse_u": "39.10",
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ca": {
+                    "name": "Calcium",
+                    "ordnungszahl": 20,
+                    "masse_u": 40.08,
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sc": {
+                    "name": "Scandium",
+                    "ordnungszahl": 21,
+                    "masse_u": 44.96,
+                    "typ": "Übergangsmetall",
+                    "column": 2,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ti": {
+                    "name": "Titan",
+                    "ordnungszahl": 22,
+                    "masse_u": 47.87,
+                    "typ": "Übergangsmetall",
+                    "column": 3,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "V": {
+                    "name": "Vanadium",
+                    "ordnungszahl": 23,
+                    "masse_u": 50.94,
+                    "typ": "Übergangsmetall",
+                    "column": 4,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cr": {
+                    "name": "Chrom",
+                    "ordnungszahl": 24,
+                    "masse_u": "52.00",
+                    "typ": "Übergangsmetall",
+                    "column": 5,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Mn": {
+                    "name": "Mangan",
+                    "ordnungszahl": 25,
+                    "masse_u": 54.94,
+                    "typ": "Übergangsmetall",
+                    "column": 6,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Fe": {
+                    "name": "Eisen",
+                    "ordnungszahl": 26,
+                    "masse_u": 55.85,
+                    "typ": "Übergangsmetall",
+                    "column": 7,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Co": {
+                    "name": "Cobalt",
+                    "ordnungszahl": 27,
+                    "masse_u": 58.93,
+                    "typ": "Übergangsmetall",
+                    "column": 8,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ni": {
+                    "name": "Nickel",
+                    "ordnungszahl": 28,
+                    "masse_u": 58.69,
+                    "typ": "Übergangsmetall",
+                    "column": 9,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cu": {
+                    "name": "Kupfer",
+                    "ordnungszahl": 29,
+                    "masse_u": 63.55,
+                    "typ": "Übergangsmetall",
+                    "column": 10,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Zn": {
+                    "name": "Zink",
+                    "ordnungszahl": 30,
+                    "masse_u": 65.38,
+                    "typ": "Übergangsmetall",
+                    "column": 11,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ga": {
+                    "name": "Gallium",
+                    "ordnungszahl": 31,
+                    "masse_u": 69.72,
+                    "typ": "Metall",
+                    "column": 12,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ge": {
+                    "name": "Germanium",
+                    "ordnungszahl": 32,
+                    "masse_u": 72.64,
+                    "typ": "Halbmetall",
+                    "column": 13,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "As": {
+                    "name": "Arsen",
+                    "ordnungszahl": 33,
+                    "masse_u": 74.92,
+                    "typ": "Halbmetall",
+                    "column": 14,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Se": {
+                    "name": "Selen",
+                    "ordnungszahl": 34,
+                    "masse_u": 78.96,
+                    "typ": "Nichtmetall",
+                    "column": 15,
+                    "row": 3,
+                    "aggregatzustand": "fest"
+                },
+
+                "Br": {
+                    "name": "Brom",
+                    "ordnungszahl": 35,
+                    "masse_u": 79.90,
+                    "typ": "Halogen",
+                    "column": 16,
+                    "row": 3,
+                    "aggregatzustand": "flüssig"
+                },
+
+                "Kr": {
+                    "name": "Krypton",
+                    "ordnungszahl": 36,
+                    "masse_u": 83.80,
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 3,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Rb": {
+                    "name": "Rubidium",
+                    "ordnungszahl": 37,
+                    "masse_u": 85.47,
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sr": {
+                    "name": "Strontium",
+                    "ordnungszahl": 38,
+                    "masse_u": 87.62,
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Y": {
+                    "name": "Yttrium",
+                    "ordnungszahl": 39,
+                    "masse_u": 88.91,
+                    "typ": "Übergangsmetall",
+                    "column": 2,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Zr": {
+                    "name": "Zirconium",
+                    "ordnungszahl": 40,
+                    "masse_u": 91.22,
+                    "typ": "Übergangsmetall",
+                    "column": 3,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Nb": {
+                    "name": "Niob",
+                    "ordnungszahl": 41,
+                    "masse_u": 92.91,
+                    "typ": "Übergangsmetall",
+                    "column": 4,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Mo": {
+                    "name": "Molybdän",
+                    "ordnungszahl": 42,
+                    "masse_u": 95.96,
+                    "typ": "Übergangsmetall",
+                    "column": 5,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+                
+                "Tc": {
+                    "name": "Technetium",
+                    "ordnungszahl": 43,
+                    "masse_u": 97.90,
+                    "typ": "Übergangsmetall",
+                    "column": 6,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ru": {
+                    "name": "Ruthenium",
+                    "ordnungszahl": 44,
+                    "masse_u": 101.1,
+                    "typ": "Übergangsmetall",
+                    "column": 7,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Rh": {
+                    "name": "Rhodium",
+                    "ordnungszahl": 45,
+                    "masse_u": 102.91,
+                    "typ": "Übergangsmetall",
+                    "column": 8,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pd": {
+                    "name": "Palladium",
+                    "ordnungszahl": 46,
+                    "masse_u": 106.4,
+                    "typ": "Übergangsmetall",
+                    "column": 9,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ag": {
+                    "name": "Silber",
+                    "ordnungszahl": 47,
+                    "masse_u": 107.9,
+                    "typ": "Übergangsmetall",
+                    "column": 10,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cd": {
+                    "name": "Cadmium",
+                    "ordnungszahl": 48,
+                    "masse_u": 112.4,
+                    "typ": "Übergangsmetall",
+                    "column": 11,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "In": {
+                    "name": "Indium",
+                    "ordnungszahl": 49,
+                    "masse_u": 114.8,
+                    "typ": "Metall",
+                    "column": 12,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sn": {
+                    "name": "Zinn",
+                    "ordnungszahl": 50,
+                    "masse_u": 118.7,
+                    "typ": "Metall",
+                    "column": 13,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sb": {
+                    "name": "Antimon",
+                    "ordnungszahl": 51,
+                    "masse_u": 121.8,
+                    "typ": "Halbmetall",
+                    "column": 14,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Te": {
+                    "name": "Tellur",
+                    "ordnungszahl": 52,
+                    "masse_u": 127.6,
+                    "typ": "Halbmetall",
+                    "column": 15,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "I": {
+                    "name": "Iod",
+                    "ordnungszahl": 53,
+                    "masse_u": 126.9,
+                    "typ": "Halogen",
+                    "column": 16,
+                    "row": 4,
+                    "aggregatzustand": "fest"
+                },
+
+                "Xe": {
+                    "name": "Xenon",
+                    "ordnungszahl": 54,
+                    "masse_u": 131.3,
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 4,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Cs": {
+                    "name": "Caesium",
+                    "ordnungszahl": 55,
+                    "masse_u": 132.9,
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ba": {
+                    "name": "Barium",
+                    "ordnungszahl": 56,
+                    "masse_u": 137.3,
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "La": {
+                    "name": "Lanthan",
+                    "ordnungszahl": 57,
+                    "masse_u": 138.9,
+                    "typ": "Lanthanoid",
+                    "column": 2,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ce": {
+                    "name": "Cer",
+                    "ordnungszahl": 58,
+                    "masse_u": 140.1,
+                    "typ": "Lanthanoid",
+                    "column": 3,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pr": {
+                    "name": "Praseodym",
+                    "ordnungszahl": 59,
+                    "masse_u": 140.9,
+                    "typ": "Lanthanoid",
+                    "column": 4,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Nd": {
+                    "name": "Neodym",
+                    "ordnungszahl": 60,
+                    "masse_u": 144.24,
+                    "typ": "Lanthanoid",
+                    "column": 5,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pm": {
+                    "name": "Promethium",
+                    "ordnungszahl": 61,
+                    "masse_u": 144.9,
+                    "typ": "Lanthanoid",
+                    "column": 6,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sm": {
+                    "name": "Samarium",
+                    "ordnungszahl": 62,
+                    "masse_u": 150.4,
+                    "typ": "Lanthanoid",
+                    "column": 7,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Eu": {
+                    "name": "Europium",
+                    "ordnungszahl": 63,
+                    "masse_u": 152.0,
+                    "typ": "Lanthanoid",
+                    "column": 8,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Gd": {
+                    "name": "Gadolinium",
+                    "ordnungszahl": 64,
+                    "masse_u": 157.3,
+                    "typ": "Lanthanoid",
+                    "column": 9,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Tb": {
+                    "name": "Terbium",
+                    "ordnungszahl": 65,
+                    "masse_u": 158.9,
+                    "typ": "Lanthanoid",
+                    "column": 10,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Dy": {
+                    "name": "Dysprosium",
+                    "ordnungszahl": 66,
+                    "masse_u": 162.5,
+                    "typ": "Lanthanoid",
+                    "column": 11,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ho": {
+                    "name": "Holmium",
+                    "ordnungszahl": 67,
+                    "masse_u": 164.9,
+                    "typ": "Lanthanoid",
+                    "column": 12,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Er": {
+                    "name": "Erbium",
+                    "ordnungszahl": 68,
+                    "masse_u": 167.3,
+                    "typ": "Lanthanoid",
+                    "column": 13,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Tm": {
+                    "name": "Thulium",
+                    "ordnungszahl": 69,
+                    "masse_u": 168.9,
+                    "typ": "Lanthanoid",
+                    "column": 14,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Yb": {
+                    "name": "Ytterbium",
+                    "ordnungszahl": 70,
+                    "masse_u": 173.1,
+                    "typ": "Lanthanoid",
+                    "column": 15,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Lu": {
+                    "name": "Lutetium",
+                    "ordnungszahl": 71,
+                    "masse_u": 175.0,
+                    "typ": "Lanthanoid",
+                    "column": 16,
+                    "row": 9,
+                    "aggregatzustand": "fest"
+                },
+
+                "Hf": {
+                    "name": "Hafnium",
+                    "ordnungszahl": 72,
+                    "masse_u": 178.5,
+                    "typ": "Übergangsmetall",
+                    "column": 3,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ta": {
+                    "name": "Tantal",
+                    "ordnungszahl": 73,
+                    "masse_u": 181.0,
+                    "typ": "Übergangsmetall",
+                    "column": 4,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "W": {
+                    "name": "Wolfram",
+                    "ordnungszahl": 74,
+                    "masse_u": 184.8,
+                    "typ": "Übergangsmetall",
+                    "column": 5,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Re": {
+                    "name": "Rhenium",
+                    "ordnungszahl": 75,
+                    "masse_u": 186.2,
+                    "typ": "Übergangsmetall",
+                    "column": 6,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Os": {
+                    "name": "Osmium",
+                    "ordnungszahl": 76,
+                    "masse_u": 190.2,
+                    "typ": "Übergangsmetall",
+                    "column": 7,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ir": {
+                    "name": "Iridium",
+                    "ordnungszahl": 77,
+                    "masse_u": 192.2,
+                    "typ": "Übergangsmetall",
+                    "column": 8,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pt": {
+                    "name": "Platin",
+                    "ordnungszahl": 78,
+                    "masse_u": 195.1,
+                    "typ": "Übergangsmetall",
+                    "column": 9,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Au": {
+                    "name": "Gold",
+                    "ordnungszahl": 79,
+                    "masse_u": 197.0,
+                    "typ": "Übergangsmetall",
+                    "column": 10,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Hg": {
+                    "name": "Quecksilber",
+                    "ordnungszahl": 80,
+                    "masse_u": 200.6,
+                    "typ": "Übergangsmetall",
+                    "column": 11,
+                    "row": 5,
+                    "aggregatzustand": "flüssig"
+                },
+
+                "Tl": {
+                    "name": "Thallium",
+                    "ordnungszahl": 81,
+                    "masse_u": 204.4,
+                    "typ": "Metall",
+                    "column": 12,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pb": {
+                    "name": "Blei",
+                    "ordnungszahl": 82,
+                    "masse_u": 207.2,
+                    "typ": "Metall",
+                    "column": 13,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Bi": {
+                    "name": "Bismut",
+                    "ordnungszahl": 83,
+                    "masse_u": "209.0",
+                    "typ": "Metall",
+                    "column": 14,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Po": {
+                    "name": "Polonium",
+                    "ordnungszahl": 84,
+                    "masse_u": 208.9,
+                    "typ": "Metall",
+                    "column": 15,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "At": {
+                    "name": "Astat",
+                    "ordnungszahl": 85,
+                    "masse_u": 209.9,
+                    "typ": "Halogen",
+                    "column": 16,
+                    "row": 5,
+                    "aggregatzustand": "fest"
+                },
+
+                "Rn": {
+                    "name": "Radon",
+                    "ordnungszahl": 86,
+                    "masse_u": "222.0",
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 5,
+                    "aggregatzustand": "gasförmig"
+                },
+
+                "Fr": {
+                    "name": "Francium",
+                    "ordnungszahl": 87,
+                    "masse_u": "223.0",
+                    "typ": "Alkalimetall",
+                    "column": 0,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ra": {
+                    "name": "Radium",
+                    "ordnungszahl": 88,
+                    "masse_u": "226.0",
+                    "typ": "Erdalkalimetall",
+                    "column": 1,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ac": {
+                    "name": "Actinium",
+                    "ordnungszahl": 89,
+                    "masse_u": "175.0",
+                    "typ": "Actinoid",
+                    "column": 2,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Th": {
+                    "name": "Thorium",
+                    "ordnungszahl": 90,
+                    "masse_u": "232.0",
+                    "typ": "Actinoid",
+                    "column": 3,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pa": {
+                    "name": "Protactinium",
+                    "ordnungszahl": 91,
+                    "masse_u": "231.0",
+                    "typ": "Actinoid",
+                    "column": 4,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "U": {
+                    "name": "Uran",
+                    "ordnungszahl": 92,
+                    "masse_u": "238.0",
+                    "typ": "Actinoid",
+                    "column": 5,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Np": {
+                    "name": "Neptunium",
+                    "ordnungszahl": 93,
+                    "masse_u": "237.0",
+                    "typ": "Actinoid",
+                    "column": 6,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Pu": {
+                    "name": "Plutonium",
+                    "ordnungszahl": 94,
+                    "masse_u": "244.0",
+                    "typ": "Actinoid",
+                    "column": 7,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Am": {
+                    "name": "Americium",
+                    "ordnungszahl": 95,
+                    "masse_u": "243.0",
+                    "typ": "Actinoid",
+                    "column": 8,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cm": {
+                    "name": "Curium",
+                    "ordnungszahl": 96,
+                    "masse_u": "247.0",
+                    "typ": "Actinoid",
+                    "column": 9,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Bk": {
+                    "name": "Berkelium",
+                    "ordnungszahl": 97,
+                    "masse_u": "247.0",
+                    "typ": "Actinoid",
+                    "column": 10,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cf": {
+                    "name": "Californium",
+                    "ordnungszahl": 98,
+                    "masse_u": "251.0",
+                    "typ": "Actinoid",
+                    "column": 11,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Es": {
+                    "name": "Einsteinium",
+                    "ordnungszahl": 99,
+                    "masse_u": "252.0",
+                    "typ": "Actinoid",
+                    "column": 12,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Fm": {
+                    "name": "Fermium",
+                    "ordnungszahl": 100,
+                    "masse_u": "257.0",
+                    "typ": "Actinoid",
+                    "column": 13,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Md": {
+                    "name": "Mendelevium",
+                    "ordnungszahl": 101,
+                    "masse_u": "258.0",
+                    "typ": "Actinoid",
+                    "column": 14,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "No": {
+                    "name": "Nobelium",
+                    "ordnungszahl": 102,
+                    "masse_u": "259.1",
+                    "typ": "Actinoid",
+                    "column": 15,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Lr": {
+                    "name": "Lawrencium",
+                    "ordnungszahl": 103,
+                    "masse_u": "262.1",
+                    "typ": "Actinoid",
+                    "column": 16,
+                    "row": 10,
+                    "aggregatzustand": "fest"
+                },
+
+                "Rf": {
+                    "name": "Rutherfordium",
+                    "ordnungszahl": 104,
+                    "masse_u": 263.1,
+                    "typ": "Übergangsmetall",
+                    "column": 3,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Db": {
+                    "name": "Dubnium",
+                    "ordnungszahl": 105,
+                    "masse_u": 262.1,
+                    "typ": "Übergangsmetall",
+                    "column": 4,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Sg": {
+                    "name": "Seaborgium",
+                    "ordnungszahl": 106,
+                    "masse_u": 266.1,
+                    "typ": "Übergangsmetall",
+                    "column": 5,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Bh": {
+                    "name": "Bohrium",
+                    "ordnungszahl": 107,
+                    "masse_u": 264.1,
+                    "typ": "Übergangsmetall",
+                    "column": 6,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Hs": {
+                    "name": "Hassium",
+                    "ordnungszahl": 108,
+                    "masse_u": 269.1,
+                    "typ": "Übergangsmetall",
+                    "column": 7,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Mt": {
+                    "name": "Meitnerium",
+                    "ordnungszahl": 109,
+                    "masse_u": 268.1,
+                    "typ": "Übergangsmetall",
+                    "column": 8,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ds": {
+                    "name": "Darmstadtium",
+                    "ordnungszahl": 110,
+                    "masse_u": 272.1,
+                    "typ": "Übergangsmetall",
+                    "column": 9,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Rg": {
+                    "name": "Roentgenium",
+                    "ordnungszahl": 111,
+                    "masse_u": 272.1,
+                    "typ": "Übergangsmetall",
+                    "column": 10,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Cn": {
+                    "name": "Copernicium",
+                    "ordnungszahl": 112,
+                    "masse_u": "277.0",
+                    "typ": "Übergangsmetall",
+                    "column": 11,
+                    "row": 6,
+                    "aggregatzustand": "flüssig"
+                },
+
+                "Nh": {
+                    "name": "Nihonium",
+                    "ordnungszahl": 113,
+                    "masse_u": "284.0",
+                    "typ": "Unknown",
+                    "column": 12,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Fl": {
+                    "name": "Flerovium",
+                    "ordnungszahl": 114,
+                    "masse_u": "289.0",
+                    "typ": "Unknown",
+                    "column": 13,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Mc": {
+                    "name": "Moscovium",
+                    "ordnungszahl": 115,
+                    "masse_u": "288.0",
+                    "typ": "Unknown",
+                    "column": 14,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Lv": {
+                    "name": "Livermorium",
+                    "ordnungszahl": 116,
+                    "masse_u": "292.0",
+                    "typ": "Unknown",
+                    "column": 15,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Ts": {
+                    "name": "Tennessin",
+                    "ordnungszahl": 117,
+                    "masse_u": "292.0",
+                    "typ": "Unknown",
+                    "column": 16,
+                    "row": 6,
+                    "aggregatzustand": "fest"
+                },
+
+                "Og": {
+                    "name": "Oganesson",
+                    "ordnungszahl": 118,
+                    "masse_u": "294.0",
+                    "typ": "Edelgas",
+                    "column": 17,
+                    "row": 6,
+                    "aggregatzustand": "gasförmig"
+                }
+            }
+        }
+    },
+
+    "Style": {
+        "Main": {
+            "min_width": 1332,
+            "min_height": 750,
+            "bg": "whitesmoke"
+        },
+
+        "Info": {
+            "bg": "whitesmoke",
+            "width": 500,
+            "height": 300,
+            "title": {
+                "font": "Serif 16",
+                "bg": "white"
+            },
+            "information": {
+                "font": "Serif 13"
+            }
+        },
+
+        "PSE": {
+            "element_types": {
+                "Alkalimetall": {
+                    "bg": "firebrick1",
+                    "active_bg": "firebrick2"
+                },
+
+                "Erdalkalimetall": {
+                    "bg": "dark orange",
+                    "active_bg": "orange2"
+                },
+
+                "Übergangsmetall": {
+                    "bg": "gold2",
+                    "active_bg": "gold"
+                },
+                
+                "Lanthanoid": {
+                    "bg": "maroon1",
+                    "active_bg": "maroon2"
+                },
+                
+                "Actinoid": {
+                    "bg": "purple1",
+                    "active_bg": "purple3"
+                },
+                
+                "Metall": {
+                    "bg": "green2",
+                    "active_bg": "green1"
+                },
+                
+                "Halbmetall": {
+                    "bg": "SpringGreen3",
+                    "active_bg": "SeaGreen3"
+                },
+                
+                "Nichtmetall": {
+                    "bg": "dodger blue",
+                    "active_bg": "deep sky blue"
+                },
+                
+                "Halogen": {
+                    "bg": "royalblue",
+                    "active_bg": "cornflowerblue"
+                },
+                
+                "Edelgas": {
+                    "bg": "grey81",
+                    "active_bg": "gainsboro"
+                },
+
+                "Unknown": {
+                    "bg": "DarkSlategray3",
+                    "active_bg": "DarkSlategray1"
+                }
+            },
+
+            "aggregate_states": {
+                "fest": {"fg": "snow"},
+                "flüssig": {"fg": "Green3"},
+                "gasförmig": {"fg": "darkred"}
+            }
+        }
+    }
+}
