@@ -1202,6 +1202,10 @@
 
         "Info": {
             "bg": "whitesmoke",
+            "text": {
+                "bg": "gray89",
+                "fg": "black"
+            },
             "width": 500,
             "height": 300,
             "title": {
@@ -1209,7 +1213,7 @@
                 "bg": "white"
             },
             "information": {
-                "font": "Serif 13"
+                "font": "Serif 12"
             }
         },
 
