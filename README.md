@@ -12,7 +12,7 @@ Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer 
 
 * :point_right: [Benutzung](#benutzung)
 * :point_right: [ToDo](#ToDo)
-* :point_right: [Vorschläge & Berichte](#vorschläge--berichte)
+* :point_right: [Vorschläge & Fehlerberichte](#vorschläge--fehlerberichte)
 
 
 ## Benutzung
