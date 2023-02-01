@@ -5,7 +5,7 @@ PSE (Periodensystem) / German
 """
 import sys,os,argparse,json
 from tkinter import *
-from rich import (pretty,console as cons)
+
 
 class CONFIG():
     def __init__(self) -> None:
@@ -19,8 +19,8 @@ class CONFIG():
         return data
 
 class GUI(CONFIG):
-    def __init__(self,conf_filepath:str,console) -> None:
-        (self.conf_filepath,self.console) = (conf_filepath,console)
+    def __init__(self,conf_filepath:str) -> None:
+        (self.conf_filepath) = (conf_filepath)
         super().__init__()
         
     def open_info_window(self,element:str) -> None:
@@ -36,7 +36,7 @@ class GUI(CONFIG):
         ).pack(side=TOP,fill=X,anchor=CENTER)
         del element_infos['row']
         del element_infos['column']
-        for x,element in enumerate(element_infos):
+        for element in element_infos:
             t_el:str = "".join([element[i] for i in range(1,len(element))])
             Label(info_window,text=f"{element[0].upper()+t_el} = {element_infos[element]}",
                 anchor = W, bg = self.get("Style","Info","text","bg"),
@@ -64,14 +64,10 @@ class GUI(CONFIG):
                 command = lambda element=element:self.open_info_window(element)).grid(
                     column = elements[element]['column'],row = elements[element]['row'], 
                     sticky = W, ipady = 0, pady = 0, padx = 0)
-        
         self.root.mainloop()
         
-        
-#
-pretty.install()
-console = cons.Console()
 
+#
 default_config_filepath:str = 'config.json'
 #
 parser = argparse.ArgumentParser("python3 pse.py")
@@ -83,5 +79,5 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     os.system("clear") # 
-    gui = GUI(console = console, conf_filepath = args.config)
+    gui = GUI(conf_filepath = args.config)
     gui.run()

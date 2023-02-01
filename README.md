@@ -7,3 +7,20 @@
 </div>
 Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer GUI-App visualisiert.
 
+
+## :pushpin: Inhalt
+
+* :point_right: [Benutzung](#benutzung)
+* :point_right: [ToDo](#ToDo)
+* :point_right: [Suggestions & Reports](#suggestions--reports)
+
+
+## Benutzung
+Für das Script werden nicht viele Python-Module verwendet. Für die GUI-App wird lediglich <code>tkinter</code> benutzt.
+
+    python3 pse.py
+
+Sollte sich die *config.json*-Datei an einem anderen Ort als die *pse.py*-Datei befinden, muss der Dateipfad als
+Argument angegeben werden:
+
+    python3 pse.py --config 'path/to/config.json'
