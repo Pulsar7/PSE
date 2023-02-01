@@ -1,0 +1,2 @@
+customtkinter>=5.0.5
+rich>=13.2.0

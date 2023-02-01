@@ -1,0 +1,24 @@
+{
+    "Content": {
+        "Main": {
+            "title": "PSE (Periodensystem) / German"
+        },
+        
+        "Legend": {
+            "title": "Legende - PSE"
+        },
+
+        "Info": {
+            "title": "Informationen zu %s"
+        }
+    },
+
+    "Style": {
+        "Main": {
+            "appearance_mode": "Dark",
+            "default_color_theme": "blue",
+            "min_width": 1500,
+            "min_height": 850
+        }
+    }
+}

@@ -16,14 +16,9 @@ Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer 
 
 
 ## Benutzung
-Für das Script werden nicht viele Python-Module verwendet. Für die GUI-App wird lediglich <code>tkinter</code> benutzt.
 
+    pip3 install -r requirements.txt
     python3 pse.py
-
-Sollte sich die *config.json*-Datei an einem anderen Ort als die *pse.py*-Datei befinden, muss der Dateipfad als
-Argument angegeben werden:
-
-    python3 pse.py --config 'path/to/config.json'
 
 
 ## ToDo
