@@ -12,7 +12,7 @@ Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer 
 
 * :point_right: [Benutzung](#benutzung)
 * :point_right: [ToDo](#ToDo)
-* :point_right: [Suggestions & Reports](#suggestions--reports)
+* :point_right: [Vorschläge & Berichte](#vorschläge--berichte)
 
 
 ## Benutzung
@@ -24,3 +24,12 @@ Sollte sich die *config.json*-Datei an einem anderen Ort als die *pse.py*-Datei 
 Argument angegeben werden:
 
     python3 pse.py --config 'path/to/config.json'
+
+
+## ToDo
+- [ ] Legende hinzufügen
+
+
+## Vorschläge & Fehlerberichte
+
+Verbesserungsvorschläge und Fehlerberichte können gerne [:link: berichtet werden](https://github.com/Pulsar7/PSE/issues)!
