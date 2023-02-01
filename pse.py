@@ -5,7 +5,7 @@ PSE (Periodensystem) / German
 """
 import sys,os,argparse,json
 from tkinter import *
-
+from rich import (pretty,console as cons)
 
 class CONFIG():
     def __init__(self) -> None:
@@ -19,8 +19,9 @@ class CONFIG():
         return data
 
 class GUI(CONFIG):
-    def __init__(self,conf_filepath:str) -> None:
-        (self.conf_filepath) = (conf_filepath)
+    def __init__(self,conf_filepath:str,console) -> None:
+        (self.conf_filepath,self.console) = (conf_filepath,console)
+        self.pse_legend_open:bool = False
         super().__init__()
         
     def open_info_window(self,element:str) -> None:
@@ -44,6 +45,33 @@ class GUI(CONFIG):
                 font = self.get("Style","Info","information","font")
             ).pack(side=TOP,fill=X,anchor=W,ipady=3,pady=0)
     
+    def open_legend_window(self) -> None:
+        legend_window = Toplevel(self.root)
+        legend_window.title(self.get("Content","Legend-Window","title"))
+        legend_window.configure(bg = self.get("Style","Legend-Window","bg"))
+        legend_window.maxsize(self.get("Style","Legend-Window","width"),
+            self.get("Style","Legend-Window","height"))
+        legend_window.minsize(self.get("Style","Legend-Window","width"),
+            self.get("Style","Legend-Window","height"))
+        legend_elements:dict = self.get("Style","PSE","element_types")
+        types_frame = Frame(legend_window,width = 300,height=300,bg = "snow")
+        types_frame.pack(side=LEFT)
+        Label(types_frame,text="Typen/Serien",bg = "snow").pack(side=TOP,fill=X,ipady=3)
+        for element in legend_elements:
+            Label(types_frame,text = f"{element}",bg = legend_elements[element]['bg'],fg = "whitesmoke").pack(
+                side = TOP, ipady = 5, fill = X, padx = 20
+            )
+        aggregate_states_frame = Frame(legend_window,width = 700,height=300,bg = "snow")
+        aggregate_states_frame.pack(side=RIGHT,padx=10)
+        aggregate_states:dict = self.get("Style","PSE","aggregate_states")
+        Label(aggregate_states_frame,text="Aggregatzustände",bg = "snow").pack(side=TOP,fill=X,ipady=3)
+        for element in aggregate_states:
+            Label(aggregate_states_frame,text = f"{element}",fg = aggregate_states[element]['fg'],
+                bg = self.get("Style","Legend-Window","aggregate_states","bg")).pack(
+                side = TOP, ipady = 5, fill = X, padx = 20
+            )
+        
+    
     def run(self) -> None:
         self.root = Tk()
         self.root.configure(bg = self.get("Style","Main","bg"))
@@ -52,7 +80,12 @@ class GUI(CONFIG):
         self.root.maxsize(self.get("Style","Main","min_width"),self.get("Style","Main","min_height"))
         self.root.columnconfigure(19, weight=1)
         self.root.rowconfigure(8,weight=1)
-        
+        menubar = Menu(self.root)
+        menubar.add_command(
+            label = 'Legend',
+            command = self.open_legend_window,
+        )
+        self.root.config(menu = menubar)
         elements = self.get("Content","PSE","elements")
         types = self.get("Style","PSE","element_types")
         aggregate_state = self.get("Style","PSE","aggregate_states")
@@ -68,6 +101,9 @@ class GUI(CONFIG):
         
 
 #
+pretty.install()
+console = cons.Console()
+#
 default_config_filepath:str = 'config.json'
 #
 parser = argparse.ArgumentParser("python3 pse.py")
@@ -79,5 +115,5 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     os.system("clear") # 
-    gui = GUI(conf_filepath = args.config)
+    gui = GUI(conf_filepath = args.config, console = console)
     gui.run()

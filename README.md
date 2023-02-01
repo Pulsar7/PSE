@@ -27,7 +27,7 @@ Argument angegeben werden:
 
 
 ## ToDo
-- [ ] Legende hinzufügen
+- [x] Legende hinzufügen
 
 
 ## Vorschläge & Fehlerberichte

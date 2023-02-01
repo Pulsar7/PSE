@@ -8,6 +8,10 @@
             "title": "%s (%s)"
         },
 
+        "Legend-Window": {
+            "title": "PSE - Legende"
+        },
+
         "PSE": {
             "elements": {
                 "H": {
@@ -1214,6 +1218,16 @@
             },
             "information": {
                 "font": "Serif 12"
+            }
+        },
+
+        "Legend-Window": {
+            "bg": "whitesmoke",
+            "width": 500,
+            "height": 400,
+
+            "aggregate_states": {
+                "bg": "gray77"
             }
         },
 
