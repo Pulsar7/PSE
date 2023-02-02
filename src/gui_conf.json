@@ -9,7 +9,22 @@
         },
 
         "Info": {
-            "title": "Informationen zu %s"
+            "title": "Informationen zu %s",
+            "tabview": {
+                "tabs": {
+                    "Basisinformationen": {
+                        
+                    },
+
+                    "Vorkommen": {
+
+                    },
+
+                    "Entdeckung": {
+
+                    }
+                }
+            }
         }
     },
 
@@ -19,6 +34,24 @@
             "default_color_theme": "blue",
             "min_width": 1500,
             "min_height": 850
+        },
+
+        "Info": {
+            "min_width": 750,
+            "min_height": 500,
+            "title_element": {
+                "font": ["Sans-Serif",21]
+            },
+            "tabview": {
+                "tabs": {
+                    "Basisinformationen": {
+                        "textbox": {
+                            "border_color": "snow",
+                            "font": ["Sans-Serif",17]
+                        }
+                    }
+                }
+            }
         }
     }
 }

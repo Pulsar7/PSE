@@ -39,23 +39,33 @@ class GUI(CONFIG):
     def show_info_to_element(self,element:str) -> None:
         info_window = customtkinter.CTkToplevel(self.root)
         info_window.title(self.get_gui("Content","Info","title")%(element))
-        info_window.resizable(False, False)
+        info_window.minsize(self.get_gui("Style","Info","min_width"),self.get_gui("Style","Info","min_height"))
+        # info_window.resizable(False, False)
         element_data:dict = self.get_pse("Elements",element)
+        label_font:list[str] = self.get_gui("Style","Info","title_element","font")
+        customtkinter.CTkLabel(info_window,text=f"{element_data['name']} ({element})",
+            font = (label_font[0],label_font[1])).pack(
+            side=TOP, fill=X, ipady = 3
+        )
         tabview = customtkinter.CTkTabview(info_window)
-        tabview.add("Basisinformationen")
-        tabview.set("Basisinformationen") 
-        tabview.pack(padx=20, pady=20)
+        tabs:dict = self.get_gui("Content","Info","tabview","tabs")
+        for tab in tabs:
+            tabview.add(tab)
+        tab_keys:list[str] = list(tabs.keys())
+        tabview.set(tab_keys[0])
+        tabview.pack(padx=50, pady=20, fill = BOTH, expand=True)
         
         # Basis-Infos
-        customtkinter.CTkLabel(tabview.tab("Basisinformationen"),
-            text="Name: %s\nOrdnungszahl: %s\nAggregatzustand: %s\nMasse u: %s"%(
-                element_data['name'],element_data['ordnungszahl'],
-                element_data['aggregatzustand'],element_data['masse_u']), font = ("Serif",15)).pack(
-            side = TOP
+        textbox_style:dict = self.get_gui("Style","Info","tabview","tabs",tab_keys[0],"textbox")
+        basis_infos_textbox = customtkinter.CTkTextbox(tabview.tab(tab_keys[0]), border_spacing=3,
+            border_color = textbox_style['border_color'],
+            font = (textbox_style['font'][0],textbox_style['font'][1]), border_width = 0
         )
-        #
-        # data_frame = customtkinter.CTkFrame(info_window)
-        # data_frame.pack(side=TOP,fill=BOTH,pady=30,padx=30,expand=True)
+        basis_infos_textbox.insert(END,"Name: %s\nOrdnungszahl: %s\nAggregatzustand: %s\nMasse u: %s"%(
+                element_data['name'],element_data['ordnungszahl'],
+                element_data['aggregatzustand'],element_data['masse_u']))
+        basis_infos_textbox.pack(side=TOP,fill=BOTH,expand=True,padx=10,pady=10)
+        basis_infos_textbox.configure(state=DISABLED)
         
     def show_legend(self) -> None:
         legend_window = customtkinter.CTkToplevel(self.root)
