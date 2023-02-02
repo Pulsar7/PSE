@@ -23,6 +23,8 @@ Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer 
 
 ## ToDo
 - [x] Legende hinzufügen
+- [ ] Mehr Informationen zum jeweiligen Element hinzufügen (Entdeckung, etc.)
+- [ ] SQLITE-Datenbank einbinden
 
 
 ## Vorschläge & Fehlerberichte
