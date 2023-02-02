@@ -5,8 +5,8 @@
 <div style="text-align: center;">
     <h1>PSE</h1>
 </div>
-Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer GUI-App visualisiert.
-
+Ein Python-Script, dass das Periodensystem mit 118 Elementen in einer GUI-App visualisiert.
+Danke an [Reinhard Remfort](https://twitter.com/ReinhardRemfort) & [Nicolas Wöhrl](https://twitter.com/nicolas_woehrl), die mich mit ihrer [Podcast Folge](https://minkorrekt.de/mi227-kinetischer-impaktor/) für das kleine Projekt inspiriert haben.
 
 ## :pushpin: Inhalt
 
