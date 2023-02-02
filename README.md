@@ -6,7 +6,7 @@
     <h1>PSE</h1>
 </div>
 Ein Python-Script, dass das Periodensystem mit 118 Elementen in einer GUI-App visualisiert.
-Danke an [Reinhard Remfort](https://twitter.com/ReinhardRemfort) & [Nicolas Wöhrl](https://twitter.com/nicolas_woehrl), die mich mit ihrer [Podcast Folge](https://minkorrekt.de/mi227-kinetischer-impaktor/) für das kleine Projekt inspiriert haben.
+Danke an <a href="https://twitter.com/ReinhardRemfort">Reinhard Remfort</a> & <a href="https://twitter.com/nicolas_woehrl">Nicolas Wöhrl</a>, die mich mit ihrer <a href="https://minkorrekt.de/mi227-kinetischer-impaktor/">Podcast Folge</a> für das kleine Projekt inspiriert haben.
 
 ## :pushpin: Inhalt
 
