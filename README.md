@@ -20,6 +20,7 @@ Ein einfaches Python-Script, dass das Periodensystem mit 118 Elementen in einer 
     pip3 install -r requirements.txt
     python3 pse.py
 
+Gleich nach dem Start sollte eine Legende als zweites Fenster neben dem PSE erscheinen.
 
 ## ToDo
 - [x] Legende hinzufügen
