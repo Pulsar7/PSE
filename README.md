@@ -23,9 +23,10 @@ Danke an <a href="https://twitter.com/ReinhardRemfort">Reinhard Remfort</a> & <a
 Gleich nach dem Start sollte eine Legende als zweites Fenster neben dem PSE erscheinen.
 
 ## ToDo
+- [ ] Informationen editieren in der GUI-App
 - [x] Legende hinzufügen
-- [ ] Mehr Informationen zum jeweiligen Element hinzufügen (Entdeckung, etc.)
-- [ ] SQLITE-Datenbank einbinden
+- [x] Mehr Informationen zum jeweiligen Element hinzufügen (Entdeckung, etc.)
+- [x] SQLITE-Datenbank einbinden
 
 
 ## Vorschläge & Fehlerberichte
