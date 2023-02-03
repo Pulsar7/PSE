@@ -1,0 +1,161 @@
+{
+    "Database": {
+        "db_path": "src/conf/pse.db",
+        "tables": {
+            "elements": {
+                "name": "Elements",
+                "values": [
+                    "ordnungszahl INTEGER", "symbol TEXT", "name TEXT", "masse_u TEXT", "aggregatzustand TEXT", "serie TEXT"
+                ],
+
+                "empty_element_values": {
+                    "ordnungszahl": 0,
+                    "entdeckung": "0",
+                    "vorkommen": "0",
+                    "nebeninfos": "0",
+                    "symbol": "0",
+                    "name": "0",
+                    "masse_u": "0",
+                    "aggregatzustand": "0",
+                    "serie": "0"
+                }
+            },
+
+            "element-infos": {
+                "name": "ElementInfos",
+                "values": [
+                    "ordnungszahl INTEGER","entdeckung TEXT", "vorkommen TEXT", "nebeninfos TEXT"
+                ]
+            }
+        }
+    },
+
+    "PSE": {
+        "aggregate_states": {
+            "fest": {"fg": "snow"},
+            "flüssig": {"fg": "Green3"},
+            "gasförmig": {"fg": "darkred"}
+        },
+
+        "element_series": {
+            "Alkalimetall": {
+                "bg": "firebrick1",
+                "active_bg": "firebrick2"
+            },
+    
+            "Erdalkalimetall": {
+                "bg": "dark orange",
+                "active_bg": "orange2"
+            },
+    
+            "Übergangsmetall": {
+                "bg": "gold2",
+                "active_bg": "gold"
+            },
+            
+            "Lanthanoid": {
+                "bg": "maroon1",
+                "active_bg": "maroon2"
+            },
+            
+            "Actinoid": {
+                "bg": "purple1",
+                "active_bg": "purple3"
+            },
+            
+            "Metall": {
+                "bg": "green2",
+                "active_bg": "green1"
+            },
+            
+            "Halbmetall": {
+                "bg": "SpringGreen3",
+                "active_bg": "SeaGreen3"
+            },
+            
+            "Nichtmetall": {
+                "bg": "dodger blue",
+                "active_bg": "deep sky blue"
+            },
+            
+            "Halogen": {
+                "bg": "royalblue",
+                "active_bg": "cornflowerblue"
+            },
+            
+            "Edelgas": {
+                "bg": "grey81",
+                "active_bg": "gainsboro"
+            },
+    
+            "Unknown": {
+                "bg": "DarkSlategray3",
+                "active_bg": "DarkSlategray1"
+            }
+        }
+    },
+
+    "Content": {
+        "Main": {
+            "title": "PSE (Periodensystem) / German"
+        },
+        
+        "Legend": {
+            "title": "Legende - PSE"
+        },
+
+        "Info": {
+            "title": "Informationen zu %s",
+            "tabview": {
+                "tabs": {
+                    "Basisinformationen": {},
+
+                    "Vorkommen & Entdeckung": {},
+                    
+                    "Nebeninfos": {}
+                }
+            }
+        }
+    },
+
+    "Style": {
+        "Main": {
+            "appearance_mode": "Dark",
+            "default_color_theme": "blue",
+            "min_width": 1500,
+            "min_height": 850
+        },
+
+        "Info": {
+            "min_width": 750,
+            "min_height": 500,
+            "title_element": {
+                "font": ["Sans-Serif",21]
+            },
+            "tabview": {
+                "tabs": {
+                    "Basisinformationen": {
+                        "textbox": {
+                            "border_color": "snow",
+                            "font": ["Sans-Serif",17]
+                        }
+                    },
+
+                    "Vorkommen & Entdeckung": {
+                        "textbox": {
+                            "border_color": "snow",
+                            "font": ["Sans-Serif",17]
+                        }
+                    },
+
+                    "Nebeninfos": {
+                        "textbox": {
+                            "border_color": "snow",
+                            "font": ["Sans-Serif",17]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
